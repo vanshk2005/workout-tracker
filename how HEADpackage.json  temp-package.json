@@ -4,10 +4,9 @@
   "description": "Backend server for logging and analyzing workout sessions",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "build": "echo 'No build needed'", 
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "keywords": ["workout", "express", "mongoose", "openai", "api"],
   "author": "Vansh Kakkar",
   "license": "MIT",
@@ -20,8 +19,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
-  },
-  "engines": {
-  "node": ">=18.20.4"
-}
+  }
 }
