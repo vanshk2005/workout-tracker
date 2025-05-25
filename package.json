@@ -1,5 +1,23 @@
 {
+  "name": "workout-tracker-server",
+  "version": "1.0.0",
+  "description": "Backend server for logging and analyzing workout sessions",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+},
+
+  "keywords": ["workout", "express", "mongoose", "openai", "api"],
+  "author": "Vansh Kakkar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "openai": "^4.103.0"
+  },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.0"
   }
 }
